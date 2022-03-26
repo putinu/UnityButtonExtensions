@@ -8,8 +8,8 @@ public class ButtonExtension : MonoBehaviour,
     IPointerExitHandler, IPointerClickHandler
 {
     [SerializeField] private ButtonHandler buttonHandler;
-    
-    
+    [SerializeField] private ButtonSetting buttonSetting;
+
     public void OnPointerDown(PointerEventData eventData)
     {
         buttonHandler.OnPointerDown();
