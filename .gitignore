@@ -74,3 +74,4 @@ crashlytics-build.properties
 
 # Custom Ignore
 /[Aa]ssets/[Pp]lugins/
+Assets/Plugins.meta
