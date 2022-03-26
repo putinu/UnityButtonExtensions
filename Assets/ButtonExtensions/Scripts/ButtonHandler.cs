@@ -7,7 +7,7 @@ public class ButtonHandler : MonoBehaviour
     /// </summary>
     public void OnPointerEnter()
     {
-        
+        Debug.Log("enter");
     }
 
     /// <summary>
@@ -15,7 +15,7 @@ public class ButtonHandler : MonoBehaviour
     /// </summary>
     public void OnPointerExit()
     {
-        
+        Debug.Log("exit");
     }
 
     /// <summary>
@@ -23,7 +23,7 @@ public class ButtonHandler : MonoBehaviour
     /// </summary>
     public void OnPointerDown()
     {
-        
+        Debug.Log("down");
     }
 
     /// <summary>
@@ -31,7 +31,7 @@ public class ButtonHandler : MonoBehaviour
     /// </summary>
     public void OnPointerUp()
     {
-        
+        Debug.Log("up");
     }
 
     /// <summary>
@@ -39,7 +39,7 @@ public class ButtonHandler : MonoBehaviour
     /// </summary>
     public void OnPointerClick()
     {
-        
+        Debug.Log("click");
     }
 
     /// <summary>
@@ -47,7 +47,7 @@ public class ButtonHandler : MonoBehaviour
     /// </summary>
     public void OnPointerDoubleClick()
     {
-        
+        Debug.Log("Double Click!");
     }
 
     /// <summary>
@@ -55,6 +55,6 @@ public class ButtonHandler : MonoBehaviour
     /// </summary>
     public void OnPointerHoldDown()
     {
-        
+        Debug.Log("hold down");
     }
 }
