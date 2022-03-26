@@ -9,28 +9,29 @@ public class ButtonExtension : MonoBehaviour,
 {
     [SerializeField] private ButtonHandler buttonHandler;
     
+    
     public void OnPointerDown(PointerEventData eventData)
     {
-        throw new System.NotImplementedException();
+        buttonHandler.OnPointerDown();
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        throw new System.NotImplementedException();
+        buttonHandler.OnPointerUp();
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        throw new System.NotImplementedException();
+        buttonHandler.OnPointerEnter();
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        throw new System.NotImplementedException();
+        buttonHandler.OnPointerExit();
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        throw new System.NotImplementedException();
+        buttonHandler.OnPointerClick();
     }
 }
