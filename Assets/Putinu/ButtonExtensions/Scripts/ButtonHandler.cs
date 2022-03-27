@@ -7,57 +7,57 @@ namespace Putinu.ButtonExtensions
         /// <summary>
         /// ボタンにカーソルが乗った時
         /// </summary>
-        public void OnPointerEnter()
+        public virtual void OnPointerEnter()
         {
-            Debug.Log("enter");
+            
         }
 
         /// <summary>
         /// ボタンからカーソルが離れた時
         /// </summary>
-        public void OnPointerExit()
+        public virtual void OnPointerExit()
         {
-            Debug.Log("exit");
+            
         }
 
         /// <summary>
         /// ボタンを押した時
         /// </summary>
-        public void OnPointerDown()
+        public virtual void OnPointerDown()
         {
-            Debug.Log("down");
+            
         }
 
         /// <summary>
         /// ボタンを離した時
         /// </summary>
-        public void OnPointerUp()
+        public virtual void OnPointerUp()
         {
-            Debug.Log("up");
+            
         }
 
         /// <summary>
         /// ボタンをクリックした時
         /// </summary>
-        public void OnPointerClick()
+        public virtual void OnPointerClick()
         {
-            Debug.Log("click");
+            
         }
 
         /// <summary>
         /// ボタンをダブルクリックした時
         /// </summary>
-        public void OnPointerDoubleClick()
+        public virtual void OnPointerDoubleClick()
         {
-            Debug.Log("Double Click!");
+            
         }
 
         /// <summary>
         /// ボタンを長押しした時
         /// </summary>
-        public void OnPointerHoldDown()
+        public virtual void OnPointerHoldDown()
         {
-            Debug.Log("hold down");
+            
         }
     }
 }
