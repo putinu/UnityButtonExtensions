@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6405cb31fbd512948bd07d1e23753418, type: 3}
   m_Name: ButtonSetting
   m_EditorClassIdentifier: 
-  maxDoubleClickInterval: 0.2
+  maxDoubleClickInterval: 0.25
   holdDownTime: 0.5
