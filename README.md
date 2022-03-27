@@ -1,7 +1,7 @@
 # UnityButtonExtensions
 ## What is UnityButtonExtensions?
 
-UnityButtonExtensionsは、ゲームエンジン「Unity」向けに開発された、ボタンの拡張機能を提供します。
+UnityButtonExtensionsは、ゲームエンジン「Unity」向けに開発されたアセットであり、ボタンの拡張機能を提供します。
 現在提供している機能は、
 
 - ```OnPointerDown()``` ... ボタンを押した時に呼び出される
